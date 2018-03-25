@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden; 
+}
+
+body{
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    padding-top: 15px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
+
+.heart{
+    padding-right: 10px;
+}
+
+nav .top-left{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.top-links {
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.header{
+    background-color:rgb(32, 101, 136);
+    height: auto;
+    background-image: url("https://static.npmjs.com/images/hero-cityscape.svg");
+    background-size: 100% auto;
+    padding-top: 0;
+    color: white;
+}
+
+.top-header{
+    padding: 20px;
+    width: 100%;
+}
+
+.logo-container{
+    float: left;
+    padding-right: 20px;
+    width: auto;
+}
+
+#npm-logo{
+    height: 40px;
+    width: 104px;
+}
+
+.search-box{
+    float: left;
+    width: 70%;
+}
+
+.search-bar{
+    height: 40px;
+    width: 80%;
+    padding-right: 0px;
+    margin-right: 0px;
+    background-color: rgb(31, 82, 111);
+    border: 1px groove;
+}
+
+.search-button{
+    padding-left: 0px;
+    margin-left: -5px;
+    height: 42px;
+    width: 18%;
+    background-color: rgb(31, 82, 111);
+    color: white;
+    border: 1px groove;
+}
+
+.right-menu{
+    float: left;
+    width: 15%;
+}
+
+header span{
+    line-height: 40px;
+}
+
+#bearface{
+    height: 40px;
+    vertical-align: middle;
+}
+
+.bottom-header{
+    width: 70%;
+    margin: 0 auto;
+    padding: 60px;
+
+}
+
+.bottom-header-left{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.bottom-header-heading{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.bottom-header p{
+    padding: 20px 0;
+}
+
+.bigger-text{
+    font-size: 20px;
+}
+
+.color-button{
+    line-height: 60px;
+    padding: 8px 20px 8px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.bottom-header a{
+    background-color: rgb(240, 146, 51)
+}
+
+.collaboration{
+    background-color:rgb(39, 53, 71);
+    width: 100%;
+    color: white;
+    padding: 100px 0px;
+}
+
+.section-container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.colab-image{
+    width: 40%;
+    float: left;
+}
+
+.colab-right{
+    width: 45%;
+    float: right;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 30px;
+}
+
+.colab-right h2{
+    font-size: 36px;
+    font-weight: 600px;
+    padding: 0 0 1em 0;
+}
+
+.orgs-sign-up-button{
+    background-color: rgb(203, 56, 55);
+}
+
+.what-is-npm{
+    background-image: url("https://static.npmjs.com/images/npm-is-BOXES.svg");
+    background-size: cover;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.what-is-npm h3{
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 40px;
+    padding-bottom: 1em;
+}
+
+.what-is-left{
+    width: 45%;
+}
+
+.install-button{
+    background-color: rgb(49, 68, 88);
+}
+
+.features{
+    width: 100%;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.features-top{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.features h2{
+    color: rgb(83, 88, 98);
+    font-size: 36px;
+    font-weight: 200;
+    line-height: 80px;
+}
+
+.features h3{
+    color: rgb(83, 88, 98);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.features p{
+    color: rgb(135, 145, 156);
+}
+
+.one-third-box{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.library{
+    color: rgb(208, 74, 73);
+}
